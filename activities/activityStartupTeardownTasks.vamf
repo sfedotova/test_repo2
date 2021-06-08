@@ -1,0 +1,166 @@
+{
+  "name": "Test startup and teardown tasks",
+  "shortDescription": "Activity to test getting startup and teardown tasks",
+  "icon": "reserve_velocity_cluster_icon.svg",
+  "descriptionMarkdown": "reserve_velocity_cluster_description.md",
+  "topology": [
+    {
+      "uuid": "43b56ff1-c413-47e5-9a98-7d70bc267e97",
+      "name": "Topology no tasks",
+      "actionTitle": "Reserve",
+      "description": "Topology no tasks description",
+      "reservationDuration": "10",
+      "automation": [],
+      "interaction": []
+    },
+    {
+      "uuid": "43b56ff2-c413-47e5-9a98-7d70bc267e97",
+      "name": "Topology startup tasks",
+      "actionTitle": "Reserve",
+      "description": "Topology startup tasks description",
+      "reservationDuration": "20",
+      "automation": [],
+      "startupTasks": [
+        {
+          "name": "startup task",
+          "testPath": "main/test_cases/test1.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "param1 description",
+              "value": "test",
+              "type": "TEXT"
+            },
+            {
+              "name": "param2",
+              "description": "param2 description",
+              "value": "1",
+              "type": "SECRET"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            },
+            {
+              "name": "os.type",
+              "value": "linux"
+            }
+          ]
+        }
+      ],
+      "interaction": []
+    },
+    {
+      "uuid": "43b56ff3-c413-47e5-9a98-7d70bc267e97",
+      "name": "Topology teardown tasks",
+      "actionTitle": "Reserve",
+      "description": "Topology teardown tasks description",
+      "reservationDuration": "30",
+      "automation": [],
+      "intervalToRunEndTestCase": 60,
+      "teardownTasks": [
+        {
+          "name": "teardown task",
+          "testPath": "main/test_cases/test2.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "param1 description",
+              "value": "test",
+              "type": "TEXT"
+            },
+            {
+              "name": "param2",
+              "description": "param2 description",
+              "value": "1",
+              "type": "SECRET"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            },
+            {
+              "name": "os.type",
+              "value": "linux"
+            }
+          ]
+        }
+      ],
+      "interaction": []
+    },
+    {
+      "uuid": "43b56ff4-c413-47e5-9a98-7d70bc267e97",
+      "name": "Topology startup and teardown tasks",
+      "actionTitle": "Reserve",
+      "description": "Topology startup and teardown tasks description",
+      "reservationDuration": "40",
+      "automation": [],
+      "intervalToRunEndTestCase": 180,
+      "startupTasks": [
+        {
+          "name": "startup task",
+          "testPath": "main/test_cases/test1.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "param1 description",
+              "value": "test",
+              "type": "TEXT"
+            },
+            {
+              "name": "param2",
+              "description": "param2 description",
+              "value": "1",
+              "type": "SECRET"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            },
+            {
+              "name": "os.type",
+              "value": "linux"
+            }
+          ]
+        }
+      ],
+      "teardownTasks": [
+        {
+          "name": "teardown task",
+          "testPath": "main/test_cases/test2.fftc",
+          "parametersList": [
+            {
+              "name": "param1",
+              "description": "param1 description",
+              "value": "test",
+              "type": "TEXT"
+            },
+            {
+              "name": "param2",
+              "description": "param2 description",
+              "value": "1",
+              "type": "SECRET"
+            }
+          ],
+          "requirements": [
+            {
+              "name": "language",
+              "value": "itest"
+            },
+            {
+              "name": "os.type",
+              "value": "linux"
+            }
+          ]
+        }
+      ],
+      "interaction": []
+    }
+  ]
+}

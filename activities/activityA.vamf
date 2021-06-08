@@ -1,0 +1,18 @@
+{
+  "name":"Reserve Velocity Cluster",
+  "shortDescription":"Activity allows to reserve Velocity Cluster and could be used for tests or demos",
+  "icon":"reserve_velocity_cluster_icon.svg",
+  "descriptionMarkdown":"reserve_velocity_cluster_description.md",
+  "topology":[
+    {
+      "uuid":"7cfe6747-b6d8-4371-a191-caa504ed7ef0",
+      "name":"Activity A",
+      "topologyUrl":"velocity/library/topologies/7cfe6747-b6d8-4371-a191-caa504ed7ef0",
+      "actionTitle":"Reserve",
+      "description":"Descriptive text alongside button",
+      "reservationDuration":"60",
+      "automation":[],
+      "interaction":[]
+    }
+  ]
+}
