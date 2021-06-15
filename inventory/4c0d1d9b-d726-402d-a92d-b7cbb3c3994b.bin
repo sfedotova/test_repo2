@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>Topology orchestrated</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="7640a9b3-e892-4194-bfad-23ef52c0e2b9" id="i7aff9e7b-f56f-4d59-af78-b51134084a5c" shared="true" type="device">
+<property isimportant="false" name="name">S1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=7640a9b3-e892-4194-bfad-23ef52c0e2b9</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<property isimportant="false" name="templateId">b6de264a-38c2-4a3a-a9de-cf013f8e7133</property>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1_orch]</extensions>
+<boundary height="100" width="100" x="511" y="155"/>
+<resource guid="f63a7221-e5a1-4b72-a7f7-bdbcf5d022da" id="i0c8187aa-8e55-41b3-ae96-5c1e429ebc55" type="port">
+<property isimportant="false" name="name">New Port</property>
+<property isimportant="false" name="description">New Port</property>
+<property isimportant="false" name="connectivity">any</property>
+<property isimportant="false" name="keepOnRemoveConnection">true</property>
+<property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[Network Port]</extensions>
+</resource>
+</resource>
+</resources>
+<connectivity/>
+</body>
+</tbml>
