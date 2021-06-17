@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
 <header>
-<name>Top1</name>
+<name>Top2</name>
 <description/>
 </header>
 <illustration>
@@ -8,22 +8,22 @@
 </illustration>
 <body>
 <resources>
-<resource guid="544e9043-4152-4d82-9fc7-4869210db658" id="i3f5bf086-9ce5-4fc1-a33e-55a88f852da7" shared="true" type="device">
-<property isimportant="false" name="name">S1</property>
+<resource guid="45de1137-7437-4de4-aa40-7a243e4fc109" id="i81c2431b-2f95-4509-8abb-4a8e35a3dfd6" shared="true" type="device">
+<property isimportant="false" name="name">S2</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=544e9043-4152-4d82-9fc7-4869210db658</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=45de1137-7437-4de4-aa40-7a243e4fc109</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
 <property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
-<property isimportant="false" name="templateId">094576db-d87e-47a5-86b9-29e926bbb4bb</property>
+<property isimportant="false" name="templateId">6a072a58-cb12-4de5-8055-498246a43182</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
-<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
-<boundary height="100" width="100" x="1021" y="288"/>
-<resource guid="0aa4a507-2d14-4605-95ed-f4e83b668e12" id="i63adc4cb-feff-4538-8b90-a192dc6e4d06" type="port">
-<property isimportant="false" name="name">P1</property>
-<property isimportant="false" name="description">P1</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T2]</extensions>
+<boundary height="100" width="100" x="891" y="287"/>
+<resource guid="807668dc-c8c1-44b5-a170-aa14eca473c3" id="i38b5e72a-fe89-4c34-88d6-69225199db53" type="port">
+<property isimportant="false" name="name">P2</property>
+<property isimportant="false" name="description">P2</property>
 <property isimportant="false" name="connectivity">any</property>
 <property isimportant="false" name="keepOnRemoveConnection">true</property>
 <property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
