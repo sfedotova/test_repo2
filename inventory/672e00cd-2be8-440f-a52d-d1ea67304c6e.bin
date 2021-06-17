@@ -8,20 +8,20 @@
 </illustration>
 <body>
 <resources>
-<resource guid="50ef7395-1c82-43f2-aabc-4807afbf3747" id="ie099af06-90c5-45e2-93fb-f059316fc4ea" shared="true" type="device">
+<resource guid="544e9043-4152-4d82-9fc7-4869210db658" id="i3f5bf086-9ce5-4fc1-a33e-55a88f852da7" shared="true" type="device">
 <property isimportant="false" name="name">S1</property>
 <property isimportant="false" name="description"/>
-<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=50ef7395-1c82-43f2-aabc-4807afbf3747</property>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=544e9043-4152-4d82-9fc7-4869210db658</property>
 <property isimportant="false" name="reservationTime">IMMEDIATE</property>
 <property isimportant="false" name="ilo_iconId"/>
 <property isimportant="false" name="hostResource_topologyResourceId"/>
 <property isimportant="false" name="hostResource_parentType"/>
 <property isimportant="false" name="orchestratedResourceRole">S1_VELOCITY_SELECTED</property>
-<property isimportant="false" name="templateId">64fcc992-1d35-4ffd-81ff-170c300d7395</property>
+<property isimportant="false" name="templateId">094576db-d87e-47a5-86b9-29e926bbb4bb</property>
 <property isimportant="false" name="ilo_shape">RECTANGLE</property>
 <extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
-<boundary height="100" width="100" x="865.0000000000001" y="173"/>
-<resource guid="fcd633e6-7a37-4727-a81f-2bac091ced41" id="i4fd4e38e-5d4f-44a9-b258-58ded444685c" type="port">
+<boundary height="100" width="100" x="1021" y="288"/>
+<resource guid="0aa4a507-2d14-4605-95ed-f4e83b668e12" id="i63adc4cb-feff-4538-8b90-a192dc6e4d06" type="port">
 <property isimportant="false" name="name">P1</property>
 <property isimportant="false" name="description">P1</property>
 <property isimportant="false" name="connectivity">any</property>
