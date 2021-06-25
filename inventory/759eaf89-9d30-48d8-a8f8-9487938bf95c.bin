@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><tbml xmlns="http://www.teslaalliance.org/trs/tbml/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd">
+<header>
+<name>ToExport</name>
+<description/>
+</header>
+<illustration>
+<layer/>
+</illustration>
+<body>
+<resources>
+<resource guid="5d02e050-6f58-44ec-9560-5ea23f1f2feb" id="i00950856-26b8-42ba-9086-42c2be7acd48" shared="true" type="device">
+<property isimportant="false" name="name">T1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=5d02e050-6f58-44ec-9560-5ea23f1f2feb</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
+<boundary height="100" width="100" x="538" y="331"/>
+<resource guid="ia9fde172-8e75-4277-a092-07988f77ea4c" id="ia9fde172-8e75-4277-a092-07988f77ea4c" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+<resource guid="5d02e050-6f58-44ec-9560-5ea23f1f2feb" id="ia29db585-19b4-440a-be7f-b1abdd4d5466" shared="true" type="device">
+<property isimportant="false" name="name">T1 (2)</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="iconURI">ilo://api/0/resource/icon?id=5d02e050-6f58-44ec-9560-5ea23f1f2feb</property>
+<property isimportant="false" name="reservationTime">IMMEDIATE</property>
+<property isimportant="false" name="ilo_iconId"/>
+<property isimportant="false" name="hostResource_topologyResourceId"/>
+<property isimportant="false" name="hostResource_parentType"/>
+<property isimportant="false" name="ilo_shape">RECTANGLE</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">template[T1]</extensions>
+<boundary height="100" width="100" x="754" y="331"/>
+<resource guid="i253f87d7-f602-4c3d-b2a1-58bee1e7acc7" id="i253f87d7-f602-4c3d-b2a1-58bee1e7acc7" type="port">
+<property isimportant="false" name="name">Port 1</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="connectivity">connected</property>
+<extensions type="com.fnfr.rm.condition" xs:namespace="com.fnfr.rm.condition">any</extensions>
+<property name="inventoryName"/>
+</resource>
+<property name="inventoryName"/>
+</resource>
+</resources>
+<connectivity>
+<link id="ia2f37b2a-1b12-467f-8629-86073b938cc8">
+<property isimportant="false" name="name">Link</property>
+<property isimportant="false" name="type">Ethernet</property>
+<property isimportant="false" name="abstractResourceId"/>
+<property isimportant="false" name="abstractResourceName"/>
+<endpoint direction="bidirectional" id="ia9fde172-8e75-4277-a092-07988f77ea4c"/>
+<endpoint direction="bidirectional" id="i253f87d7-f602-4c3d-b2a1-58bee1e7acc7"/>
+<extensions type="com.fnfr.rm.condition"/>
+<propertyCollection name="connectionType" order="0">
+<property isimportant="false" name="id">b0c69c5f-7020-d6d9-e616-485f9a63ccb3</property>
+<property isimportant="false" name="description"/>
+<property isimportant="false" name="kind">L1</property>
+<property isimportant="false" name="shortcut">Eth</property>
+</propertyCollection>
+</link>
+</connectivity>
+</body>
+</tbml>
